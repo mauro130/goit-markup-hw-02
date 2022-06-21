@@ -1,5 +1,47 @@
+.div-contac-block{
+    text-decoration: none;
+    font-family: 'Roboto'
+}
+.div-contac-block address a{
+    text-decoration: none;
+    font-family: 'Roboto'
+}
+.div-contac-block address{
+    position: absolute;
+    width: 210px;
+    height: 80px;
+    left: 227px;
+    top: 66px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
 
-
+.div-contac-block .trademark {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 208px;
+    top: 24px
+}
+.div-contac-block{
+    position: absolute;
+    height: 252px;
+    right: 0px;
+    left: 0px;
+    top: 1298px;
+    background: #2F303A;
+    
+}
 .gallery-container{
     position: absolute;
     left: 220px;
