@@ -5,38 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>goit-markeup-hw-02</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,100&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,100&family=Roboto:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="block-header">
+            <section id="nav-opciones">
                 <nav>
-                    <ul class="menu-optios">
-                        <li> <div><a class="trademark" href="./index.html">WebStudio</a></div></li>
-                        <li><a href="./studio.htm">Estudio</a></li>
-                        <li><a href="./portafolio.html">Portafolio</a></li>
-                        <li><a href="">Contacto</a></li>
-                        <li style="float:right"><a href="mailto:info@example.com">info@devstudio.com</a></li>
-                        <li style="float:right"><a href="tel:+525555296000">+52 555 529 6000</a></li>
-                    </ul>
+                    <a id="logo" href="#">WebStudio</a>
+                    <a class="linkmenu" id="link" href="#">Estudio</a>
+                    <a class="linkmenu" id="link" href="./portafolio.html">Portafolio</a>
+                    <a class="linkmenu" id="link" href="#">Contactos</a>
+                    <a class="linkcontac" id="link" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                    <a class="linkcontac" id="link" href="tel:+525555296000" class="link">+52 55 5529 6000></a>
                 </nav>
-            </div>
+            </section>
         </header>
         <main>
-          <div class="button-list-block">
-            <ul class="button-list">
-                <li><button type="button" class="filter-button">Todo</button></li>
-                <li><button type="button" class="filter-button">Sitios-Web</button></li>
-                <li><button type="button" class="filter-button">Aplicaciones</button></li>
-                <li><button type="button" class="filter-button">Diseños</button></li>
-                <li><button type="button" class="filter-button">Marketing</button></li>
-            </ul>
+          <div id="contendor-lista-botones">
+            <button type="button" class="boton-filtro">Todo</button>
+            <button type="button" class="boton-filtro">Sitios-Web</button>
+            <button type="button" class="boton-filtro">Aplicaciones</button>
+            <button type="button" class="boton-filtro">Diseños</button>
+            <button type="button" class="boton-filtro">Marketing</button>
           </div>
             <table class="gallery-container">
                 <tr>
@@ -134,24 +124,14 @@
           </div>
         </main>
         <footer>
-            <div>
-                <div class="div-contac-block">
-                    <a class="trademark" href="/index.html">WebStudio</a>
-                    <address>
-                        Calz. Ticomán 500, Ciudad de México, CDMX, México<br>
-                        <a href="mailto:info@example.com">info@example.com</a><br>
-                        +52 55 5529 6000
-                    </address>
-                </div>
-            </div>
-            <div class="social-networks">
-                <section class="buttons">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google-plus"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                </section>
+            <div id="contacto">
+                <!--Contruccion de datos pie de paguina-->
+                <address id="datos-contac">
+                    <a id="logo" href="#">WebStudio</a>
+                    <p>Calz. Ticomán 500, Ciudad de México, CDMX, México </p>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="tel:+525555296000">+52 55 5529 6000</a>
+                </address>
             </div>
         </footer>
     </body>
