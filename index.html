@@ -1,121 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>goit-markeup-hw-02</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>goit-markeup-hw-02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header>
-        <!--Contruccion de bloque del menu superior-->
-    <section id="nav-opciones">
+      <!--Contruccion de bloque del menu superior-->
+      <section class="nav-opciones container">
         <nav>
-            <a id="logo" href="./index.html">WebStudio</a>
-            <a class="linkmenu" id="link" href="./Estudio.htm">Estudio</a>
-            <a class="linkmenu" id="link" href="./portafolio.html">Portafolio</a>
-            <a class="linkmenu" id="link" href="#">Contactos</a>
-            <a class="linkcontac" id="link" href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-            <a class="linkcontac" id="link" href="tel:+525555296000" class="link">+52 55 5529 6000></a>
+          <a id="logo" href="./index.html">WebStudio</a>
+          <a class="linkmenu link" href="./study.htm">Estudio</a>
+          <a class="linkmenu link" href="./portafolio.html">Portafolio</a>
+          <a class="linkmenu link" href="#">Contactos</a>
         </nav>
-    </section>
+        <ul class="contac-list list">
+          <li>
+            <a class="linkcontac link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="linkcontac link" href="tel:+525555296000"
+              >+52 55 5529 6000></a
+            >
+          </li>
+        </ul>
+      </section>
     </header>
     <main>
-        <section class="background-actividad">
-            <div id="bg-titulo">
-                <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            </div>
+      <section class="background-banner">
+        <div>
+          <h1 class="bg-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+          <button id="btn-servicio">Solicite nuestro servicio</button>
+        </div>
+      </section>
+      <section class="articules-info">
+        <div>
+          <article class="article">
+            <h1>ATENCION A LOS DETALLES</h1>
+            <p>
+              Nos adentramos en todos los detalles y procesos de su negocio,
+              para así desarrollar una solución a su medida
+            </p>
+          </article>
+        </div>
+        <div>
+          <article class="article">
+            <h1>PUNTUALIDAD</h1>
+            <p>
+              Con nosotros, usted puede sentirse seguro y protegido. Un
+              principio importante de la empresa: respetar su tiempo y respetar
+              los plazos acordados.
+            </p>
+          </article>
+        </div>
+        <div>
+          <article class="article">
+            <h1>PLANIFICACION</h1>
+            <p>
+              Usted podrá observar y participar en cada fase del desarrollo y
+              aplicación de soluciones.
+            </p>
+          </article>
+        </div>
+        <div>
+          <article class="article">
+            <h1>TEGNOLOGIA MODERNA</h1>
+            <p>
+              Usamos herramientas innovadoras para resolver las tareas
+              asignadas. Es hora de simplificar los procesos laborales.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="work-dising">
+        <h1>A qué nos dedicamos</h1>
+        <img class="img-dising" src="./images/work_areas1.jpg" alt="" />
+        <img class="img-dising" src="./images/work_areas2.jpg" alt="" />
+        <img class="img-dising" src="./images/work_areas3.jpg" alt="" />
+      </section>
+      <section class="work-team">
+        <h1>Nuesto Equipo</h1>
+        <ul>
+          <li class="team-list">
+            <img
+              class="picture-team"
+              src="./images/andrescubo.jpg"
+              alt="foto Andres Cubo"
+            />
             <div>
-                <button id="btn-servicio">Solicite nuestro servicio</button>
+              <h3>Andrés Cubo</h3>
+              <p>Diseñador de Productos</p>
             </div>
-        </section>
-        <section class="articulos">
+          </li>
+          <li class="team-list">
+            <img
+              class="picture-team"
+              src="./images/carlapalacios.jpg"
+              alt="Foto Carla Palacios"
+            />
             <div>
-                <article class="article">
-                    <h1>ATENCION A LOS DETALLES</h1>
-                    <p>
-                        Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida
-                    </p>
-                </article>
+              <h3>Carla Palacios</h3>
+              <p>Desarrolladora Frontend</p>
             </div>
+          </li>
+          <li class="team-list">
+            <img
+              class="picture-team"
+              src="./images/mariodorado.jpg"
+              alt="Foto Mario Dorado"
+            />
             <div>
-                <article class="article">
-                    <h1>PUNTUALIDAD</h1>
-                    <p>
-                        Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo
-                        y respetar los plazos acordados.
-                    </p>
-                </article>
+              <h3>Mario Dorado</h3>
+              <p>Marketing</p>
             </div>
+          </li>
+          <li class="team-list">
+            <img
+              class="picture-team"
+              src="./images/pablomijangos.jpg"
+              alt="Foto Pablo Mijangos"
+            />
             <div>
-                <article class="article">
-                    <h1>PLANIFICACION</h1>
-                    <p>
-                        Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.
-                    </p>
-                </article>
+              <h3>Pablo Mijangos</h3>
+              <p>Diseñador IU</p>
             </div>
-            <div>
-                <article class="article">
-                    <h1>TEGNOLOGIA MODERNA</h1>
-                    <p>
-                        Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos
-                        laborales.
-                    </p>
-                </article>
-            </div>
-        </section>
-        <section class="articulos">
-            <h1></h1>
-            <img class="img-actividad" src="./images/dedicado1.jpg" alt="">
-            <img class="img-actividad" src="./images/dedicado2.jpg" alt="">
-            <img class="img-actividad" src="./images/dedicado3.jpg" alt="">
-        </section>
-        <section id="equipo-trabajo">
-            <h1>Nuestro Equipo</h1>
-            <div id="posicion-foto">
-                <article class="trabajador">
-                    <div>
-                        <img class="foto-trabajador" src="./images/andrescubo.jpg" alt="Andres Cubo Diseñador de Productos">
-                    </div>
-                    <h1>Andres Cubo</h1>
-                    <p>Diseñador de productos</p>
-                </article>
-                <article class="trabajador">
-                    <div>
-                        <img class="foto-trabajador" src="./images/carlapalacios.jpg" alt="Andres Cubo Diseñador de Productos">
-                    </div>
-                    <h1>Carla Palacios</h1>
-                    <p>Desarrollo Frontend</p>
-                </article>
-                <article class="trabajador">
-                    <div>
-                        <img class="foto-trabajador" src="./images/mariodorado.jpg" alt="Andres Cubo Diseñador de Productos">
-                    </div>
-                    <h1>Mario Dorado</h1>
-                    <p>Marketing</p>
-                </article>
-                <article class="trabajador">
-                    <div>
-                        <img class="foto-trabajador" src="./images/pablomijangos.jpg" alt="Andres Cubo Diseñador de Productos">
-                    </div>
-                    <h1>Pablo Mijiangos</h1>
-                    <p>Diseñador IU</p>
-                </article>
-            </div>
-        </section> 
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
-        <div id="contacto">
-            <!--Contruccion de datos pie de paguina-->
-            <address id="datos-contac">
-                <a id="logo" href="#">WebStudio</a>
-                <p>Calz. Ticomán 500, Ciudad de México, CDMX, México </p>
-                <a href="mailto:info@example.com">info@example.com</a>
-                <a href="tel:+525555296000">+52 55 5529 6000</a>
-            </address>
-        </div>
+      <div class="contac-background">
+        <!--Contruccion de datos pie de paguina-->
+        <address class="datos-contac">
+          <a id="logo-footer" href="#">WebStudio</a>
+          <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
+          <a href="mailto:info@example.com">info@example.com</a>
+          <a href="tel:+525555296000">+52 55 5529 6000</a>
+        </address>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
