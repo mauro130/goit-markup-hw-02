@@ -16,6 +16,10 @@
   --color-background-tema: #f5f4fa;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 li {
   list-style: none;
 }
